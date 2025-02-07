@@ -16,40 +16,40 @@ Develop a **Self-Analysis Mental Health Model as called as Mental Health Bot** t
 
 ---
 
-## **📂 Project Structure**
-📦 ArogoAI_Mental_Health_Prediction
-│
-├── 📂 datasets/                      # Datasets used for training and evaluation
-│   ├── 📂 datasets_original/          # Raw datasets
-│   │   ├── depression_anxiety_data.csv
-│   │   ├── survey.csv (Not Used)
-│   │
-│   ├── 📂 datasets_preprocessed/      # Processed datasets
-│   │   ├── preprocessed_depression_anxiety_data.csv
-│   │   ├── preprocessed_survey.csv (Not Used)
-│   │
-│   ├── 📂 datasets_pickle/            # Saved datasets in pickle format
-│   │   ├── depression_anxiety_data.csv_pickle/
-│   │       ├── X_train.pkl
-│
-├── 📂 code/                           # Python scripts for training and inference
-│   ├── training.ipynb                 # Model training notebook
-│   ├── predict_mental_health.py        # CLI script for inference
-│
-├── 📂 models/                         # Trained models
-│   ├── 📂 depression_anxiety_data.csv_models/
-│   │   ├── random_forest_model.pkl
-│   │   ├── xgboost_model.pkl
-│
-├── 📂 encoders/                        # Encoders for categorical variables
-│   ├── 📂 depression_anxiety_data.csv_encoders/
-│   │   ├── label_encoders.pkl
-│   │   ├── target_encoder.pkl
-│
-├── .gitignore                          # Ignore unnecessary files
-├── requirements.txt                     # Python dependencies
-├── mental_health_report.pdf             # Documentation report
-└── README.md                            # This file
+## **📂 Project Structure**  
+📦 ArogoAI_Mental_Health_Prediction  
+│  
+├── 📂 datasets/                      # Datasets used for training and evaluation  
+│   ├── 📂 original/                   # Raw datasets  
+│   │   ├── depression_anxiety_data.csv  
+│   │   ├── survey.csv (Not Used)  
+│   │  
+│   ├── 📂 preprocessed/               # Processed datasets  
+│   │   ├── preprocessed_depression_anxiety_data.csv  
+│   │   ├── preprocessed_survey.csv (Not Used)  
+│   │  
+│   ├── 📂 pickle/                     # Saved datasets in pickle format  
+│   │   ├── depression_anxiety_data/  
+│   │       ├── X_train.pkl  
+│  
+├── 📂 code/                           # Python scripts for training and inference  
+│   ├── training.ipynb                 # Model training notebook  
+│   ├── predict_mental_health.py       # CLI script for inference  
+│  
+├── 📂 models/                         # Trained models  
+│   ├── 📂 depression_anxiety_data/  
+│   │   ├── random_forest_model.pkl  
+│   │   ├── xgboost_model.pkl  
+│  
+├── 📂 encoders/                       # Encoders for categorical variables  
+│   ├── 📂 depression_anxiety_data/  
+│   │   ├── label_encoders.pkl  
+│   │   ├── target_encoder.pkl  
+│  
+├── .gitignore                         # Ignore unnecessary files  
+├── requirements.txt                    # Python dependencies  
+├── mental_health_report.pdf            # Documentation report  
+└── README.md                           # Project documentation  
 
 ---
 
