@@ -67,7 +67,7 @@ We use **publicly available mental health datasets**, including:
 
 Preprocessed datasets are saved in `datasets_preprocessed/`.
 
-The code for preprocessing is present in [training.ipynb](code/train.ipynb). The encoders used in preprocessing are stored in `encoders/`.
+The code for preprocessing is present in [train.ipynb](code/train.ipynb). The encoders used in preprocessing are stored in `encoders/`.
 
 ---
 
@@ -118,26 +118,4 @@ To interpret model predictions, we used:
 - LIME (Local Interpretable Model-Agnostic Explanations)
 
 ---
-
-## **📦 Installation & Dependencies**
-
-1. **Clone the Repository**
-```
-git clone https://github.com/your_username/ArogoAI_Mental_Health_Prediction.git
-cd ArogoAI_Mental_Health_Prediction
-```
-
-2. **Install Dependencies**
-Create a virtual environment and install required packages:
-```
-python -m venv venv
-source venv/bin/activate  # On macOS/Linux
-venv\Scripts\activate  # On Windows
-pip install -r requirements.txt
-```
-
-3. **Run the Model**
-```
-python code/predict_mental_health.py
-```
 
